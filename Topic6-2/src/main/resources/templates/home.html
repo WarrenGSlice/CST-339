@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org" xmlns:layout="https://ultraq.net.nz/thymeleaf/layout" layout:decorate="layouts/defaultTemplate">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" >
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" >
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" ></script>
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Home</title>
+</head>
+<body>
+<div layout:fragment="content">
+    <h2>Welcome to My Home</h2>
+    <a href="/login" class="btn btn primary" type="submit">Login</a>
+</div>
+<div layout:fragment="footer"></div>
+</body>
+</html>
